@@ -1,0 +1,17 @@
+1 - Analise É a etapa onde se cria modelos que irão representar o funcionamento do software
+Projeto É a etapa onde se define as arquitetura do sistema, linguagem de programação utilizada, Sistema Gerenciador de Banco de Dados (SGBD) utilizado, padrão de interface gráfica, entre outros.
+2 -
+O código fica mais simples
+Facilidade para gera documentação
+Facilidade de encontra bugs no sistema
+Facilidade na manutenção do sistema
+Reutilização de código
+3 - Os requisitos funcionais são a descrição das diversas funções que clientes e usuários querem ou precisam que o software ofereça. Eles definem a funcionalidade desejada do software.
+5 - Prover uma forma de sequencialmente acessar os elementos de uma coleção sem expor sua representação interna. Sua principal vantagem é isolar o uso de uma estrutura de dados de sua representação interna de forma a poder mudar a estrutura sem afetar quem a usa.
+7 - A Principal diferença é que o return é usado para retorna qualquer coisa já o throw só retorna algo caso ocorra um evento inesperado.
+9 - polimorfismo Permite que um método produza resultados diferentes, dependendo do objeto ao qual é aplicado.
+10 - Classe abstrata só permite instância uma, agora com interfaces é possível implementar varias
+11 - Classe de tipo define o que a classe pode fazer, já herança se pode usar as definições de outra classe herdade.
+12 - Um dos benefícios da Herança é que ela captura o que é comum e o isola daquilo que é diferente, além disso, a herança é vista diretamente no código até mesmo devido a sua natureza estática.
+Entre os problemas da Herança está o fraco encapsulamento entre classes e subclasses e o forte acoplamento entre elas onde ao mudar uma superclasse pode afetar todas as subclasses além de violar o princípio básico de projeto OO em que devemos ter sempre um baixo acoplamento entre as classes. Além disso, algumas vezes um objeto precisa ser de uma classe diferente em momentos diferentes o que não é possível com a herança, pois o código não pode sofrer alterações facilmente em tempo de execução, portanto tem-se que a herança é um relacionamento estático.
+14 - Atribuir que uma classe é responsável por tal funcionamento, queremos minimizar as responsabilidade para melhor identifica problemas que possão ocorrer durante o desenvolvimento, não uma classe poderia acaba ficando muito grande e para identificar um problema levaria muito tempo.
