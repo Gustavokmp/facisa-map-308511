@@ -11,7 +11,7 @@ public class Main {
 	 /* Uma forma que quebra o codigo é se fizemos o sequinte*/
 	    fabrica = new FabricaDeCarro();
 	    System.out.println(fabrica.gerarRelatorio());
-	    /*Dessa madeira todos os dados serão apagados todas as informações estão ligadas a uma instância, quando alteramos a instância, perdemos todas as informações*/
+	    /*Dessa madeira todos os dados serão apagados odas as informações estão ligadas a uma instância, quando alteramos a instância, perdemos todas as informações*/
 	}
 
 }
