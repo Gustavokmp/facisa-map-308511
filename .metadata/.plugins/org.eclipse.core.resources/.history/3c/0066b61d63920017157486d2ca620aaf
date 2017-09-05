@@ -1,0 +1,29 @@
+package br.cesed.si.map.fm;
+
+public class Auxiliar {
+	
+	public interface Pizza{
+		public PreparePizza novaPizza();
+	}
+	public interface PreparePizza{
+		
+		public Baker createBaker();
+		public Cut createCut();
+		public Box createBox();
+		public NomePizzaria nome();
+	}
+	
+	public interface Baker {
+		   public String toString();
+	  }
+	public interface Cut {
+		   public String toString();
+	  }
+	public interface Box {
+		   public String toString();
+	  }
+	public interface NomePizzaria {
+		   public String toString();
+	  }
+
+}
