@@ -1,0 +1,5 @@
+package comSingleton;
+
+public class FabricaDeCarro {
+
+}

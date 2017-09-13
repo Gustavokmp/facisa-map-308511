@@ -1,5 +1,9 @@
 # facisa-map-308511
 
-Achei a implementaÁ„o dificil de ser entendida no comeÁo.
-A vantagem È que posso adicionar atributos com mais facilidade.
-N„o achei que utilizando o builder um metodo muito eficaz.
+Usando heran√ßa achei o codigo muito acoplado tornando dificil sua altera√ß√£o.
+Na refatora√ß√£o achei que o codigo fico mais organizado.
+
+Ponto positivo: Baixo acoplamento
+
+Ponto negativo: Repeti√ß√£o de codigo.
+
