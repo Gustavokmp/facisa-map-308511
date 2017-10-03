@@ -502,3 +502,4 @@ Caused by: com.cedarsoftware.util.io.JsonIoException: EOF reached prematurely
 	at com.cedarsoftware.util.io.JsonParser.readValue(JsonParser.java:278)
 	at com.cedarsoftware.util.io.JsonReader.readObject(JsonReader.java:521)
 	... 159 more
+2017-09-05 16:53:22,012 ERROR [Worker-82] - System.err - [Fatal Error] :3:2: O conteúdo dos elementos deve consistir em dados ou marcação do caractere correto.
