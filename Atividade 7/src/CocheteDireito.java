@@ -8,11 +8,11 @@ public class CocheteDireito extends Decorator{
 	@Override
 	public void imprimir() {
 		caractereDecorator.imprimir();
-		this.cocheteDireito();
+		this.direito();
 		
 	}
 	
-	public void cocheteDireito() {
+	public void direito() {
 		System.out.print('"');
 	}
 	

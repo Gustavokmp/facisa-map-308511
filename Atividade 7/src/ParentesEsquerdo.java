@@ -8,13 +8,13 @@ public class ParentesEsquerdo extends Decorator{
 
 	@Override
 	public void imprimir() {
-		this.parenteseEsquerdo();
+		this.esquerdo();
 		caractereDecorator.imprimir();
 		
 		
 	}
 	
-	public void parenteseEsquerdo() {
+	public void esquerdo() {
 		System.out.print("(");
 	}
 

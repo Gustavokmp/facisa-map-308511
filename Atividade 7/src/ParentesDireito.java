@@ -9,10 +9,10 @@ public class ParentesDireito extends Decorator{
 	@Override
 	public void imprimir() {
 		caractereDecorator.imprimir();
-		this.parenteseDireito();
+		this.direito();
 		
 	}
-	public void parenteseDireito() {
+	public void direito() {
 		System.out.print(")");
 	}
 

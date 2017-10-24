@@ -9,11 +9,11 @@ public class ChaveDireita extends Decorator{
 	@Override
 	public void imprimir() {
 		caractereDecorator.imprimir();
-		this.chaveDireita();
+		this.direita();
 		
 	}
 	
-	public void chaveDireita() {
+	public void direita() {
 		System.out.println("}");
 	}
 
