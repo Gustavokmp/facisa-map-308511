@@ -1,7 +1,4 @@
 # facisa-map-308511
 
-PROS: Achei que o codigo fico mais simples e com menos clases criadas.
-
-
-CONTRAS: Caso tenhan muitas especificações com o Enum ficaria enviavel sendo necessario volta ao exemplo anterior para deixa o codigo mais legivel.
-
+Resposta: Tem duplicação pq um é para a criação da classe e o outro para altera o modo de reprodução.
+Uma Altenativa seria chama o metodo setModoDeReproducao() dentro do construtor.
