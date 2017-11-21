@@ -6,8 +6,9 @@ public class Giant {
     private static int s_next = 0;
     
     
-	public Giant() {
+	public Giant(Type tipo) {
 		this.m_id = s_next++;
+		this.m_type = tipo;
 	}
 	public Type getM_type() {
 		return m_type;

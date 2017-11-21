@@ -1,21 +1,26 @@
 
 public enum Type{
-	FEE{
-		public void fee() {
-			System.out.println(FEE + " -fee");
-		}
-	},
-	PHI{
-		public void phi() {
-			System.out.println(PHI + " -phi");
-		}
-	}, 
-	PHEAUX{
-		public void pheaux() {
-			System.out.println(PHEAUX + " -pheaux");
-		}
-	};
+	FEE("fee"),
+	PHI("phi"),
+	PHEAUX("pheaux");
+	
+	private String nome;
 
+	private Type(String nome) {
+		this.nome = nome;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	
+	
 
 	
 }
