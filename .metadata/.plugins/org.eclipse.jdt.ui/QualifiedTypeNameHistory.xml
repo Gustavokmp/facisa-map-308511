@@ -8,4 +8,9 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Command"/>
 <fullyQualifiedTypeName name="Giant"/>
+<fullyQualifiedTypeName name="MachineChain"/>
+<fullyQualifiedTypeName name="SlotTreis"/>
+<fullyQualifiedTypeName name="SlotDois"/>
+<fullyQualifiedTypeName name="SlotUm"/>
+<fullyQualifiedTypeName name="Slots"/>
 </qualifiedTypeNameHistroy>
