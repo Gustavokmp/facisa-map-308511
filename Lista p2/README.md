@@ -22,3 +22,10 @@ Dependências devem ser gerenciadas diretamente por getters ou no construtor
 É muito menos intuitivo no começo,e se você está acostumado de outra forma,será mais complicado de se acostumar com o código.
 
 É pouco detalhado no que diz respeito à utilização de herança
+
+
+Questao 5:
+Estratégia, Decorador e Composto são três padrões muito poderosos.
+ Estes são frequentemente utilizados em conjunto para resolver problemas do mundo real.
+ Todos os três padrões usam interfaces, mas para diferentes fins. 
+Quando combinados, obtemos um design muito flexível, extensível e modular
